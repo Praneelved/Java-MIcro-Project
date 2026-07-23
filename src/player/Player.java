@@ -50,6 +50,7 @@ public class Player {
     // Getters and Setters (Encapsulation)
     // -------------------------------------------------------
     public int getPlayerId()             { return playerId; }
+    public void setPlayerId(int id)      { this.playerId = id; }
     public String getName()              { return name; }
     public void setName(String name)     { this.name = name; }
 

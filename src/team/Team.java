@@ -112,6 +112,7 @@ public class Team {
     // Getters and Setters
     // -------------------------------------------------------
     public int getTeamId()               { return teamId; }
+    public void setTeamId(int id)        { this.teamId = id; }
     public String getTeamName()          { return teamName; }
     public void setTeamName(String n)    { this.teamName = n; }
     public String getSport()             { return sport; }

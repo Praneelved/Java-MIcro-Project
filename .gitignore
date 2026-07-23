@@ -1,0 +1,6 @@
+bin/
+*.class
+*.db
+.idea/
+*.iml
+*.log

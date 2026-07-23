@@ -119,6 +119,7 @@ public class Match {
     // Getters and Setters
     // -------------------------------------------------------
     public int getMatchId()              { return matchId; }
+    public void setMatchId(int id)       { this.matchId = id; }
     public Team getHomeTeam()            { return homeTeam; }
     public Team getAwayTeam()            { return awayTeam; }
     public int getHomeScore()            { return homeScore; }

@@ -20,14 +20,14 @@ public class PointsTable {
      * OOP Concept: Inner Class / Composition
      */
     public static class TeamRecord {
-        String teamName;
-        int played;
-        int wins;
-        int losses;
-        int draws;
-        int points;
-        int goalsFor;
-        int goalsAgainst;
+        public String teamName;
+        public int played;
+        public int wins;
+        public int losses;
+        public int draws;
+        public int points;
+        public int goalsFor;
+        public int goalsAgainst;
 
         public TeamRecord(String teamName) {
             this.teamName = teamName;

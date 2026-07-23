@@ -166,6 +166,7 @@ public abstract class Tournament implements TournamentRules {
     // Getters and Setters
     // -------------------------------------------------------
     public int getTournamentId()              { return tournamentId; }
+    public void setTournamentId(int id)       { this.tournamentId = id; }
     public String getTournamentName()         { return tournamentName; }
     public String getSport()                  { return sport; }
     public String getStartDate()              { return startDate; }
